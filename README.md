@@ -40,7 +40,7 @@
       <a href="https://github.com/twoonemoon/binpeek"><img src="assets/binpeek.svg" width="100%" alt="binpeek: C · 32-bit ISA · little-endian"></a>
       <br><b><a href="https://github.com/twoonemoon/binpeek">binpeek</a></b>
       <br><sub>C · 32-bit ISA · little-endian</sub>
-      <p>Утилита для разбора бинарников собственной 32-битной архитектуры. Читает 4-байтовые слова, декодирует опкоды и формирует текстовый листинг.</p>
+      <p>Утилита для разбора бинарников нестандартной 32-битной архитектуры. Читает 4-байтовые слова, декодирует опкоды и формирует текстовый листинг.</p>
       <a href="https://github.com/twoonemoon/binpeek">Исходный код</a>
     </td>
   </tr>
