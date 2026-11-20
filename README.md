@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/name-xy-dark.svg">
-  <img width="100%" src="assets/name-xy-light.svg" alt="twoonemoon — анимация XY-плоттера">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/name-calligraphy-dark.svg">
+  <img width="100%" src="assets/name-calligraphy-light.svg" alt="twoonemoon — каллиграфическая анимация">
 </picture>
 
 <p align="center">Я Семён. Пишу на Java и C/C++. До Java писал прошивки и занимался верификацией микроконтроллеров. Ещё делаю гитарные плагины.</p>
@@ -10,7 +10,7 @@
 
 ### [TwoonemoonSoundLab](https://github.com/twoonemoon/TwoonemoonSoundLab)
 
-[![TwoonemoonSoundLab — интерфейс гитарного процессора](assets/soundlab.jpg)](https://github.com/twoonemoon/TwoonemoonSoundLab)
+[![TwoonemoonSoundLab — усилитель, кабинет и эффекты](assets/soundlab-cover.svg)](https://github.com/twoonemoon/TwoonemoonSoundLab)
 
 **C++17 · iPlug2 · AUv2 / VST3 / CLAP / standalone**
 
