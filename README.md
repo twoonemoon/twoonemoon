@@ -1,104 +1,74 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg">
+  <img width="100%" src="assets/name-light.svg" alt="twoonemoon — Семён Гридин. Java, embedded и audio.">
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7C6AFF&height=120&section=header&text=&fontSize=0" width="100%"/>
-
-# Гридин Семён
-
-<p>
-  <a href="https://t.me/twoonemoon"><img src="https://img.shields.io/badge/Telegram-@twoonemoon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/></a>
-  <a href="mailto:gridinsams@gmail.com"><img src="https://img.shields.io/badge/Email-gridinsams@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://twoonemoon.github.io"><img src="https://img.shields.io/badge/Резюме-twoonemoon.github.io-7C6AFF?style=flat-square&logo=github&logoColor=white"/></a>
+<p align="center">
+  Я Семён. Пишу Java-сервисы, разбираюсь с микроконтроллерами и иногда делаю звук громче.
+  <br><br>
+  <a href="https://twoonemoon.github.io/">Портфолио</a> · <a href="https://t.me/twoonemoon">Telegram</a> · <a href="mailto:gridinsams@gmail.com">Почта</a>
 </p>
 
-</div>
-
----
-
-Java-разработчик. Embedded. В 2026 окончил МИЭТ по Интегральной Электронике.
-Работал в Ангстреме — писал прошивки, верифицировал 32-битный МК, вёл проекты.
-
----
-
-## 🔧 Стек
+## Проекты
 
 <table>
   <tr>
-    <td><b>Backend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Java_17/21-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white"/>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+    <td width="50%" valign="top">
+      <a href="https://github.com/twoonemoon/SpringBoot-antifraud"><img src="assets/antifraud.svg" width="100%" alt="SpringBoot-antifraud: Java 17 · Spring Boot · Kafka · PostgreSQL"></a>
+      <br><b><a href="https://github.com/twoonemoon/SpringBoot-antifraud">SpringBoot-antifraud</a></b>
+      <br><sub>Java 17 · Spring Boot · Kafka · PostgreSQL</sub>
+      <p>Обработка транзакций из Kafka, проверка правила по сумме и отправка алертов. Транзакции и срабатывания сохраняются в PostgreSQL.</p>
+      <a href="https://github.com/twoonemoon/SpringBoot-antifraud">Исходный код</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/twoonemoon/SpringBoot-movie-recommender"><img src="assets/movies.svg" width="100%" alt="SpringBoot-movie-recommender: Java 17 · Spring Boot · JPA · PostgreSQL"></a>
+      <br><b><a href="https://github.com/twoonemoon/SpringBoot-movie-recommender">SpringBoot-movie-recommender</a></b>
+      <br><sub>Java 17 · Spring Boot · JPA · PostgreSQL</sub>
+      <p>Рекомендации по любимым жанрам на основе пользовательских оценок. Асинхронное обновление подборки и исключение уже оценённых фильмов.</p>
+      <a href="https://github.com/twoonemoon/SpringBoot-movie-recommender">Исходный код</a>
     </td>
   </tr>
   <tr>
-    <td><b>Embedded</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/C/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Assembler_x86/RISC--V-555555?style=flat-square&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Verilog-FF6B35?style=flat-square&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Cadence-A100FF?style=flat-square&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+    <td width="50%" valign="top">
+      <a href="https://github.com/twoonemoon/PinkGuitarFX"><img src="assets/guitar.svg" width="100%" alt="PinkGuitarFX: C++17 · JUCE · VST3 / AU"></a>
+      <br><b><a href="https://github.com/twoonemoon/PinkGuitarFX">PinkGuitarFX</a></b>
+      <br><sub>C++17 · JUCE · VST3 / AU</sub>
+      <p>Гитарный дисторшн-плагин: drive, noise gate, эквалайзер, кабинетные IR и тюнер. Немного розового между строками кода.</p>
+      <a href="https://github.com/twoonemoon/PinkGuitarFX">Исходный код</a>
     </td>
-  </tr>
-  <tr>
-    <td><b>Инструменты</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/>
-      <img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
-      <img src="https://img.shields.io/badge/SCRUM-6DB33F?style=flat-square&logoColor=white"/>
+    <td width="50%" valign="top">
+      <a href="https://github.com/twoonemoon/binpeek"><img src="assets/binpeek.svg" width="100%" alt="binpeek: C · 32-bit ISA · little-endian"></a>
+      <br><b><a href="https://github.com/twoonemoon/binpeek">binpeek</a></b>
+      <br><sub>C · 32-bit ISA · little-endian</sub>
+      <p>Утилита для разбора бинарников собственной 32-битной архитектуры. Читает 4-байтовые слова, декодирует опкоды и формирует текстовый листинг.</p>
+      <a href="https://github.com/twoonemoon/binpeek">Исходный код</a>
     </td>
   </tr>
 </table>
 
----
+## Стек
 
-## 🚀 Проекты
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img width="100%" src="assets/stack-light.svg" alt="Backend: Java 17/21, Spring Boot, Spring Security, Hibernate/JPA, Kafka, PostgreSQL. Embedded: C/C++, Assembly, Verilog, Python, Cadence SimVision, Virtuoso, MATLAB. Инструменты: Git, Maven, JUnit, Jira, Scrum. Audio: C++, JUCE, VST3.">
+</picture>
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/twoonemoon/SpringBoot-antifraud">🔒 SpringBoot-antifraud</a></h3>
-      <p>REST API сервис, который ловит подозрительные транзакции.</p>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/twoonemoon/SpringBoot-movie-recommender">🎬 SpringBoot-movie-recommender</a></h3>
-      <p>Рекомендует фильмы.</p>
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/twoonemoon/PinkGuitarFX">🎸 PinkGuitarFX</a></h3>
-      <p>VST3 плагин для гитары на C++/JUCE. Розовый.</p>
-      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-      <img src="https://img.shields.io/badge/JUCE-FF69B4?style=flat-square&logoColor=white"/>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/twoonemoon/binpeek">🔍 binpeek</a></h3>
-      <p>Дизассемблер под самодельную 32-битную архитектуру.</p>
-      <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+## Между битами и backend
 
----
+Мой инженерный бэкграунд — микроконтроллеры, прошивки и RTL-верификация в АО «Ангстрем». Параллельно занимался планированием и координацией проектов. В 2026 году окончил НИУ «МИЭТ», направление «Интегральная электроника».
 
-<div align="center">
+Сейчас развиваюсь в Java/backend. Java-проекты здесь — самостоятельная практика; коммерческий опыт связан с embedded и микроэлектроникой.
 
-Пишите в телеграм или на почту.
+<details>
+<summary><b>In English</b></summary>
+<br>
 
-<a href="https://t.me/twoonemoon"><img src="https://img.shields.io/badge/-@twoonemoon-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/></a>
-<a href="mailto:gridinsams@gmail.com"><img src="https://img.shields.io/badge/-gridinsams@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+I'm Semyon Gridin, a Java developer with an embedded engineering background. I've worked on MCU firmware, 32-bit MCU verification, and project coordination at Angstrem. MIET graduate, Integrated Electronics, 2026.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7C6AFF&height=80&section=footer" width="100%"/>
+My Java projects are personal projects. My professional experience is in embedded systems and microelectronics. I also build audio software with C++ and JUCE.
 
-</div>
+[Portfolio](https://twoonemoon.github.io/) · [Telegram](https://t.me/twoonemoon) · [Email](mailto:gridinsams@gmail.com)
+
+</details>
+
+<p align="center">☾ &nbsp; from bits to backend</p>
