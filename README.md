@@ -16,7 +16,7 @@
 
 Гитарный процессор под macOS на Apple Silicon. Усилители, кабинеты, педали и эффекты в одном плагине. Есть отдельное приложение.
 
-Пока тестовая версия. На реальной гитаре и вручную в DAW ещё не проверен. [Что проверено и что осталось](https://github.com/twoonemoon/TwoonemoonSoundLab/blob/main/docs/PROGRESS.md).
+Пока тестовая версия.  [Что проверено и что осталось](https://github.com/twoonemoon/TwoonemoonSoundLab/blob/main/docs/PROGRESS.md).
 
 <table>
   <tr>
