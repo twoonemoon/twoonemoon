@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg?v=xy-plotter-1">
-  <img width="100%" src="assets/name-light.svg?v=xy-plotter-1" alt="twoonemoon — анимация XY-плоттера">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/name-xy-dark.svg">
+  <img width="100%" src="assets/name-xy-light.svg" alt="twoonemoon — анимация XY-плоттера">
 </picture>
 
 <p align="center">Я Семён. Пишу на Java и C/C++. До Java писал прошивки и занимался верификацией микроконтроллеров. Ещё делаю гитарные плагины.</p>

@@ -125,7 +125,9 @@ if __name__=='__main__':
     output.mkdir(parents=True,exist_ok=True)
     terms,points,down,rms=prepare()
     for theme in ['light','dark']:
-        (output/f'name-{theme}.svg').write_text(render(terms,points,down,theme),encoding='utf-8')
+        content=render(terms,points,down,theme)
+        (output/f'name-{theme}.svg').write_text(content,encoding='utf-8')
+        (output/f'name-xy-{theme}.svg').write_text(content,encoding='utf-8')
     # Useful for inspecting the completed word without waiting for an animation.
     if '--check' in sys.argv:
         (output/'name-check.svg').write_text(render(terms,points,down,'light',False),encoding='utf-8')
